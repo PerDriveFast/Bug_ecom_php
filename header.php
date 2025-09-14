@@ -157,17 +157,17 @@ $_SESSION['last_activity'] = time();
                         <div class="col-lg-6 d-lg-block d-none">
                             <nav class="site-navigation">
                                 <ul class="main-menu list-unstyled justify-content-center">
-                                    <li class="menu-list-item nav-item <?php if ($cur_page == 'index.php') {
+                                    <li class="menu-list-item nav-item <?php if ($cur_page == 'index') {
                                                                             echo 'active';
                                                                         } ?>">
                                         <a class="nav-link" href="<?php echo BASE_URL; ?>">Home</a>
                                     </li>
-                                    <li class="menu-list-item nav-item <?php if ($cur_page == 'shop.php') {
+                                    <li class="menu-list-item nav-item <?php if ($cur_page == 'shop') {
                                                                             echo 'active';
                                                                         } ?>">
-                                        <a class="nav-link" href="<?php echo BASE_URL; ?>shop.php">Shop</a>
+                                        <a class="nav-link" href="<?php echo BASE_URL; ?>shop">Shop</a>
                                     </li>
-                                    <li class="menu-list-item nav-item <?php if ($cur_page == 'blog.php' || $cur_page == 'post.php') {
+                                    <li class="menu-list-item nav-item <?php if ($cur_page == 'blog' || $cur_page == 'post') {
                                                                             echo 'active';
                                                                         } ?>">
                                         <a class="nav-link" href="<?php echo BASE_URL; ?>blog">Blog</a>

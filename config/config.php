@@ -9,7 +9,7 @@ try {
 } catch (PDOException $exception) {
     echo "Connection error :" . $exception->getMessage();
 }
-define("BASE_URL", "http://localhost:3000/");
+define("BASE_URL", "http://localhost:8080/ecommerce_project/");
 define("ADMIN_URL", BASE_URL . "admin/");
 
 define("SMTP_HOST", "sandbox.smtp.mailtrap.io");
